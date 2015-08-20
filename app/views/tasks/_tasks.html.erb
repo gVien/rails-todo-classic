@@ -5,5 +5,6 @@
 <tr>
   <td><%= task.task %></td>
   <td><%= task.complete %></td>
+  <td><%= link_to "Edit this task", edit_task_path(task) %></td>
 </tr>
 <% end %>
