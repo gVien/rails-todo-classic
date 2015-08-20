@@ -1,0 +1,9 @@
+<th> Tasks </th>
+<th> Completed? </th>
+
+<% @tasks.each do |task| %>
+<tr>
+  <td><%= task.task %></td>
+  <td><%= task.complete %></td>
+</tr>
+<% end %>
