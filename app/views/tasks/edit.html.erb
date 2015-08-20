@@ -1,0 +1,6 @@
+<%= form_for @task do |f|%>
+<%= f.text_field :task %>
+<%= f.submit "Update" %>
+<% end %>
+
+<%= link_to "Back", tasks_path %>
